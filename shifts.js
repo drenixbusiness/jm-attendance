@@ -10,6 +10,39 @@ const SHIFT_RULES = {
     checkOutDayOffset: 1,
     lateAllowableMin: 10,
   },
+  "4-2": {
+    label: "Shift 5-2",
+    workStart: "16:00",
+    workEnd: "02:00",
+    validCheckInFrom: "13:00",
+    validCheckInTo: "19:00",
+    validCheckOutFrom: "01:50",
+    validCheckOutTo: "10:00",
+    checkOutDayOffset: 1,
+    lateAllowableMin: 10,
+  },
+  "0-5": {
+    label: "Shift 5-2",
+    workStart: "00:00",
+    workEnd: "17:00",
+    validCheckInFrom: "22:00",
+    validCheckInTo: "00:00",
+    validCheckOutFrom: "16:50",
+    validCheckOutTo: "18:00",
+    checkOutDayOffset: 1,
+    lateAllowableMin: 10,
+  },
+  "9-5": {
+    label: "Shift 5-2",
+    workStart: "09:00",
+    workEnd: "17:00",
+    validCheckInFrom: "08:00",
+    validCheckInTo: "09:00",
+    validCheckOutFrom: "16:50",
+    validCheckOutTo: "18:00",
+    checkOutDayOffset: 1,
+    lateAllowableMin: 10,
+  },
   "6-3": {
     label: "Shift 6-3",
     workStart: "18:00",
@@ -35,3 +68,4 @@ const SHIFT_RULES = {
 };
 
 module.exports = SHIFT_RULES;
+
